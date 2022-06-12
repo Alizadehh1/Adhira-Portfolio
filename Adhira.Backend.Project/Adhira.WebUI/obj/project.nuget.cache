@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wYKMQEROVe7QtOUhAqf5iSq0YUxhGqo84ZJFJSD8u3I1VjWgb6RLjhFLft4xnKmyQBQA4OumtS4dJfyuNjJk8g==",
+  "dgSpecHash": "GikFnpn0qq7hG8uBX6XGI3PVcRNMhHqnbAd8OskgZajwZDf3jUrjtZrX+V9N8GU41706ywhztB1YuKoMbuXI+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira-Portfolio\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alide\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alide\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

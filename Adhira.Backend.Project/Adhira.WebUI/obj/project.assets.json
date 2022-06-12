@@ -7155,11 +7155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira-Portfolio\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
       "projectName": "Adhira.WebUI",
-      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
+      "projectPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira-Portfolio\\Adhira.Backend.Project\\Adhira.WebUI\\Adhira.WebUI.csproj",
       "packagesPath": "C:\\Users\\alide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira.Backend.Project\\Adhira.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\alide\\OneDrive\\Desktop\\C#\\Final(asp.net)\\Adhira-Portfolio\\Adhira.Backend.Project\\Adhira.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alide\\AppData\\Roaming\\NuGet\\NuGet.Config",
