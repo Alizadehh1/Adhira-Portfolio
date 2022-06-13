@@ -11,5 +11,6 @@ namespace Adhira.WebUI.Models.DataContexts
 
         }
         public DbSet<ContactPost> ContactPosts { get; set; }
+        public DbSet<BlogPost> BlogPosts { get; set; }
     }
 }

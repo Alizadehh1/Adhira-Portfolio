@@ -1,0 +1,156 @@
+﻿@model BlogPost
+@{
+    ViewData["Title"] = "Details";
+}
+<section class="page-top-section d-flex align-items-center">
+    <div class="page-top-bg" data-img-src="https://wordpressriverthemes.com/adhira/wp-content/themes/adhira/assets/img/pagetop/1.jpg"></div>
+    <div class="container">
+        <h2 class="page-title">Hello Portfolio<span class="text-theme">.</span></h2>
+    </div>
+    <div class="top-img d-xl-block d-none"><img src="https://wordpressriverthemes.com/adhira/wp-content/themes/adhira/assets/img/pagetop/1.png" alt="Image"></div>
+    <div class="shape-left circle_shape"></div>
+    <div class="shape-right rectangle_shape"></div>
+</section>
+
+<section class="sec-pt-120 sec-pb-120">
+    <div class="container">
+        <div class="row justify-content-center mb--30">
+            <div class="col-lg-8 col-md-12">
+
+                <div class="single-blog-info">
+                    <div class="thumb">
+                        <img width="770" height="350" src="~/uploads/images/@Model.ImagePath" class="attachment-adhira-blog-sidebar size-adhira-blog-sidebar wp-post-image" alt="Adhira Creative Portfolio WordPress Theme For Agency"  />
+                    </div>
+                    <ul class="card_meta">
+                        <li>by <a class="avater-name" style="color: #eb3505;text-decoration:underline;cursor:pointer">John Doe</a> on &#160 <i class="fas fa-calendar-alt"></i>@Model.PublishedDate?.ToString("MMMM dd, yyyy")</li>
+                    </ul>
+
+                    <div class="blog-details-wrapper">
+                        @Html.Raw(Model.Body)
+                    </div>
+
+                    <div class="blog-comments">
+                        <div class="comments-area">
+                            <div class="comments-title">
+                                <h4 class="total_comments_class">
+                                    1 Comment
+                                </h4>
+                                <div class="comments-list">
+                                    <li class="comment">
+                                        <div class="comment-item-wrap">
+                                            <div class="comment-avatar"><img alt='' src='https://secure.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' loading='lazy' /></div>
+                                            <div class="post-comment">
+                                                <h6 class="avater-name"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></h6>
+                                                <div class="cmt-font"><i class="far fa-clock fa-clock-fix"></i>April 23, 2021</div>
+                                                <p><p>
+                                                    Hi, this is a comment.<br />
+                                                    To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br />
+                                                    Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.
+                                                </p>
+                                                </p>
+                                                <ul class="comment-footer">
+                                                    <a rel='nofollow' class='comment-reply-link' href='https://wordpressriverthemes.com/adhira/hello-portfolio/?replytocom=1#respond' data-commentid="1" data-postid="1" data-belowelement="comment-1" data-respondelement="respond" data-replyto="Reply to A WordPress Commenter" aria-label='Reply to A WordPress Commenter'><i class="fa fa-reply-all"></i>Reply</a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="comments-form">
+                                <div id="respond" class="comment-respond">
+                                    <div class="title"><h4>Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/adhira/hello-portfolio/#respond" style="display:none;">Cancel reply</a></small></h4></div><form action="https://wordpressriverthemes.com/adhira/wp-comments-post.php" method="post" id="comment-form" class="contact-comments" novalidate>
+                                        <div class="col-md-12 cmt-pd-fix">
+                                            <div class="form-group comments cmt-cus">
+
+<textarea id="form_message" name="comment" aria-required='true' class="form-control h-100" placeholder="Your Comment" rows="4" data-error="Please,leave us a message."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+
+                                                    <input id="author" name="author" type="text" class="form-control" placeholder="Name" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+
+                                                    <input id="email" name="email" type="email" class="form-control" placeholder="Email" required="required">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="form-submit">
+                                            <button name="submit" type="submit" id="submit" class="submit" value="Post Comment">Post Comment</button> <input type='hidden' name='comment_post_ID' value='1' id='comment_post_ID' />
+                                            <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+
+                <div id="search-2" class="sidebar-item mb-50 widget_search">
+                    <h6 class="sidebar-title">Type Keyword</h6>
+                    <div class="search-wrap">
+                        <form role="search" method="get" action="https://wordpressriverthemes.com/adhira/">
+                            <input type='search' name="s" placeholder="Search Here..." class="form-control" id="search-box" value="">
+                            <button class="search-btn"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div id="recent-posts-2" class="sidebar-item mb-50 widget_recent_entries">
+                    <h6 class="sidebar-title">Recent Posts</h6>
+                    <ul>
+                        <li>
+                            <a href="https://wordpressriverthemes.com/adhira/world-class-post/">World Class Post</a>
+                        </li>
+                        <li>
+                            <a href="https://wordpressriverthemes.com/adhira/terrific-topics/">Terrific Topics</a>
+                        </li>
+                        <li>
+                            <a href="https://wordpressriverthemes.com/adhira/hello-portfolio/" aria-current="page">Hello Portfolio</a>
+                        </li>
+                    </ul>
+                </div><div id="recent-comments-2" class="sidebar-item mb-50 widget_recent_comments"><h6 class="sidebar-title">Recent Comments</h6><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpressriverthemes.com/adhira' rel='external nofollow ugc' class='url'>admin</a></span> on <a href="https://wordpressriverthemes.com/adhira/terrific-topics/#comment-3">Terrific Topics</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpressriverthemes.com/adhira' rel='external nofollow ugc' class='url'>admin</a></span> on <a href="https://wordpressriverthemes.com/adhira/world-class-post/#comment-2">World Class Post</a></li><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="https://wordpressriverthemes.com/adhira/hello-portfolio/#comment-1">Hello Portfolio</a></li></ul></div><div id="archives-2" class="sidebar-item mb-50 widget_archive">
+                    <h6 class="sidebar-title">Archives</h6>
+                    <ul>
+                        <li><a href='https://wordpressriverthemes.com/adhira/2021/05/'>May 2021</a></li>
+                        <li><a href='https://wordpressriverthemes.com/adhira/2021/04/'>April 2021</a></li>
+                    </ul>
+                </div><div id="categories-2" class="sidebar-item mb-50 widget_categories">
+                    <h6 class="sidebar-title">Categories</h6>
+                    <ul>
+                        <li class="cat-item cat-item-6">
+                            <a href="https://wordpressriverthemes.com/adhira/category/abstract/">Abstract</a>
+                        </li>
+                        <li class="cat-item cat-item-4">
+                            <a href="https://wordpressriverthemes.com/adhira/category/adhira/">Adhira</a>
+                        </li>
+                        <li class="cat-item cat-item-5">
+                            <a href="https://wordpressriverthemes.com/adhira/category/technology/">Technology</a>
+                        </li>
+                        <li class="cat-item cat-item-1">
+                            <a href="https://wordpressriverthemes.com/adhira/category/uncategorized/">Uncategorized</a>
+                        </li>
+                    </ul>
+                </div><div id="meta-2" class="sidebar-item mb-50 widget_meta">
+                    <h6 class="sidebar-title">Meta</h6>
+                    <ul>
+                        <li><a href="https://wordpressriverthemes.com/adhira/wp-login.php">Log in</a></li>
+                        <li><a href="https://wordpressriverthemes.com/adhira/feed/">Entries feed</a></li>
+                        <li><a href="https://wordpressriverthemes.com/adhira/comments/feed/">Comments feed</a></li>
+                        <li><a href="https://wordpress.org/">WordPress.org</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

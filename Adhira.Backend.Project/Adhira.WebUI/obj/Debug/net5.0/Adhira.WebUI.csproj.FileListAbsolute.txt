@@ -297,3 +297,10 @@ C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backen
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Details.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Index.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Answer.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\BlogPost\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\BlogPost\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\bin\Debug\net5.0\libman.json
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Create.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Edit.cshtml.g.cs
