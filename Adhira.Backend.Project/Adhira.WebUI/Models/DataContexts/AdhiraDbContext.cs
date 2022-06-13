@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Adhira.WebUI.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Adhira.WebUI.Models.DataContexts
 {
@@ -9,5 +10,6 @@ namespace Adhira.WebUI.Models.DataContexts
         {
 
         }
+        public DbSet<ContactPost> ContactPosts { get; set; }
     }
 }

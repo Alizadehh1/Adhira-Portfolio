@@ -1,6 +1,8 @@
 using Adhira.WebUI.Models.DataContexts;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +32,10 @@ namespace Adhira.WebUI
             {
                 cfg.UseSqlServer(configuration.GetConnectionString("cString"));
             });
+
+            services.AddMediatR(typeof(Startup));
+
+            services.AddTransient<IActionContextAccessor, ActionContextAccessor>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -45,7 +51,10 @@ namespace Adhira.WebUI
 
             app.UseEndpoints(cfg =>
             {
-
+                cfg.MapAreaControllerRoute(
+                    name: "defaultAdmin",
+                    areaName: "Admin",
+                    pattern: "Admin/{controller=Dashboard}/{action=Index}/{id?}");
                 cfg.MapControllerRoute("default", pattern: "{controller=home}/{action=index}/{id?}");
             });
         }

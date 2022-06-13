@@ -286,3 +286,14 @@ C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backen
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Adhira.WebUI.genruntimeconfig.cache
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Details.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Index.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactPosts\Answer.cshtml.g.cs
