@@ -30,16 +30,23 @@ namespace Adhira.WebUI.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Contact(ContactPost model)
+        public async Task<IActionResult> Contact(ContactPost model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                db.ContactPosts.Add(model);
-                db.SaveChanges();
-
-                return View();
+                return Json(new
+                {
+                    error = true,
+                    message = ModelState.SelectMany(ms => ms.Value.Errors).First().ErrorMessage
+                });
             }
-            return View(model);
+            await db.ContactPosts.AddAsync(model);
+            await db.SaveChangesAsync();
+            return Json(new
+            {
+                error = false,
+                message = "Muracietiniz qeyde alindi!"
+            });
         }
     }
 }

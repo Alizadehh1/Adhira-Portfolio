@@ -304,3 +304,6 @@ C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backen
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Details.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Create.cshtml.g.cs
 C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\BlogPosts\Edit.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\alide\OneDrive\Desktop\C#\Final(asp.net)\Adhira-Portfolio\Adhira.Backend.Project\Adhira.WebUI\obj\Debug\net5.0\Razor\Views\Account\Profile.cshtml.g.cs
